@@ -18,6 +18,9 @@
         content=
         "IE=edge,chrome=1"
         >
+    <link rel="stylesheet" href={{URL::asset('css/home.css')}}>
+    <!--<link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}">-->
+
     <title>
         Home
     </title>
@@ -41,9 +44,10 @@
         >
 </head>
 <body>
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.
+<div id="main">
+<h1>Lorem ipsum</h1>
+
+<p>I have to type this useless sentence because I have not yet figured out the keyboard shortcuts for phpStorm amd I could not think of anything better.</p>
+</div>
 </body>
 </html>
